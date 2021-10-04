@@ -4,7 +4,7 @@ const { CollectorMetricExporter } = require('@opentelemetry/exporter-collector')
 
 
 const collectorOptions = {
-  url: 'http://40.85.173.200:55681/v1/metrics', // url is optional and can be omitted - default is http://localhost:55681/v1/metrics
+  url: 'http://<IP of SigNoz backend>:55681/v1/metrics', // url is optional and can be omitted - default is http://localhost:55681/v1/metrics
   headers: {}, // an optional object containing custom headers to be sent with each request
   concurrencyLimit: 1, // an optional limit on pending requests
 };
