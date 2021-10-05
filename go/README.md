@@ -1,6 +1,8 @@
-Install packages mentioned in `go.mod`
+- Install packages mentioned in `go.mod`
 
-Run the `metrics-sample.go` application
+- Update IP of SigNoz backend in [this line](https://github.com/SigNoz/custom-metrics-examples/blob/320d7e1495800f3fb4afeef868033ea1f1a90e7f/go/metrics-sample.go#L136)
+
+- Run the `metrics-sample.go` application
 
 ```
 go run metrics-sample.go
