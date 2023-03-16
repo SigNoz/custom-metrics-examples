@@ -1,4 +1,4 @@
-const { MeterProvider } = require('@opentelemetry/sdk-metrics-base');
+const { MeterProvider } = require('@opentelemetry/sdk-metrics');
 const { OTLPMetricExporter } =  require('@opentelemetry/exporter-metrics-otlp-grpc');
 
 const collectorOptions = {
